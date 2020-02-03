@@ -9,6 +9,7 @@ def repetition_selection(list_words,quantity_words,length_words):
     long_words_list = []
 
     for word in words:
+        word = word.lower()
         if len(word) > length_words:
             long_words_list.append(word)
 
